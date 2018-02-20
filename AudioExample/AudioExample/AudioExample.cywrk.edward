@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioExample\Design01">
+<ExpandedNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\TopDesign</v>
+<v>AudioExample\Design01\Design01.cydwr</v>
+<v>AudioExample\Design01\Design01.cydwr\Pins</v>
+<v>AudioExample\Design01\Design01.cydwr\Analog</v>
+<v>AudioExample\Design01\Design01.cydwr\Clocks</v>
+<v>AudioExample\Design01\Design01.cydwr\Interrupts</v>
+<v>AudioExample\Design01\Design01.cydwr\DMA</v>
+<v>AudioExample\Design01\Design01.cydwr\System</v>
+<v>AudioExample\Design01\Design01.cydwr\Directives</v>
+<v>AudioExample\Design01\Design01.cydwr\Flash Security</v>
+<v>AudioExample\Design01\Design01.cydwr\EEPROM</v>
+<v>AudioExample\Design01\Header Files</v>
+<v>AudioExample\Design01\Header Files\cyapicallbacks.h</v>
+<v>AudioExample\Design01\Source Files</v>
+<v>AudioExample\Design01\Source Files\main.c</v>
+<v>AudioExample\Design01\Generated_Source\PSoC5</v>
+<v>AudioExample\Design01\Generated_Source\PSoC5\ADC_DelSig_1</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\TopDesign</v>
+<v>AudioExample\Design01\Design01.cydwr</v>
+<v>AudioExample\Design01\Design01.cydwr\Pins</v>
+<v>AudioExample\Design01\Design01.cydwr\Analog</v>
+<v>AudioExample\Design01\Design01.cydwr\Clocks</v>
+<v>AudioExample\Design01\Design01.cydwr\Interrupts</v>
+<v>AudioExample\Design01\Design01.cydwr\DMA</v>
+<v>AudioExample\Design01\Design01.cydwr\System</v>
+<v>AudioExample\Design01\Design01.cydwr\Directives</v>
+<v>AudioExample\Design01\Design01.cydwr\Flash Security</v>
+<v>AudioExample\Design01\Design01.cydwr\EEPROM</v>
+<v>AudioExample\Design01\Header Files</v>
+<v>AudioExample\Design01\Header Files\cyapicallbacks.h</v>
+<v>AudioExample\Design01\Source Files</v>
+<v>AudioExample\Design01\Source Files\main.c</v>
+<v>AudioExample\Design01\Generated_Source</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioExample\Design01\TopDesign\TopDesign.cysch">
+<ExpandedNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\TopDesign</v>
+<v>AudioExample\Design01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\TopDesign</v>
+<v>AudioExample\Design01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioExample">
+<ExpandedNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\CortexM3</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_AMux.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_Ext_CP_Clk.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_INT.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_IRQ.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_PM.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_theACLK.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Audio.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Mic.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SignalSelector.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_INT.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_PM.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_BuffAmp_PM.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_DacClk.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_PM.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_VDAC8.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_VDAC8_PM.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_Wave1_DMA_dma.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\WaveDAC8_1_Wave2_DMA_dma.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Design01.elf</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Design01.hex</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Design01.map</v>
+<v>AudioExample\Design01\Design01.gpdsc</v>
+<v>AudioExample\Design01\Design01.rpt</v>
+<v>AudioExample\Design01\Design01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\CortexM3</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_AMux.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_Ext_CP_Clk.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_INT.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_IRQ.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_PM.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_DelSig_1_theACLK.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Audio.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Mic.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SignalSelector.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>AudioExample\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_INT.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioExample">
+<ExpandedNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\PSoC 5LP Architecture TRM</v>
+<v>AudioExample\Design01\CY8C58LP Family Datasheet</v>
+<v>AudioExample\Design01\System Reference Guides</v>
+<v>AudioExample\Design01\System Reference Guides\cy_boot_v5_60</v>
+<v>AudioExample\Design01\ADC_DelSig_v3_30.pdf</v>
+<v>AudioExample\Design01\cy_constant_v1_0.pdf</v>
+<v>AudioExample\Design01\cy_pins_v2_20</v>
+<v>AudioExample\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>AudioExample\Design01\UART_v2_50.pdf</v>
+<v>AudioExample\Design01\WaveDAC8_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>AudioExample</v>
+<v>AudioExample\Design01</v>
+<v>AudioExample\Design01\PSoC 5LP Architecture TRM</v>
+<v>AudioExample\Design01\CY8C58LP Family Datasheet</v>
+<v>AudioExample\Design01\System Reference Guides</v>
+<v>AudioExample\Design01\System Reference Guides\cy_boot_v5_60</v>
+<v>AudioExample\Design01\ADC_DelSig_v3_30.pdf</v>
+<v>AudioExample\Design01\cy_constant_v1_0.pdf</v>
+<v>AudioExample\Design01\cy_pins_v2_20</v>
+<v>AudioExample\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>AudioExample\Design01\UART_v2_50.pdf</v>
+<v>AudioExample\Design01\WaveDAC8_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Design01.cydsn\main.c" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="788, 440" SelectedTabbedMdiWindow="eb4cfd5a-73a3-48b1-8bbc-8a141de65cd7"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0fbfc1b2-3904-404a-9d11-f2f0c5ac24e0" /><DocumentWindow Key="C:\Users\edward\Documents\PSoC Creator\AudioExample\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="eb4cfd5a-73a3-48b1-8bbc-8a141de65cd7" /><DocumentWindow Key="C:\Users\edward\Documents\PSoC Creator\AudioExample\Design01.cydsn\main.c" Guid="dfc1c270-7533-456f-8a0d-51cf626028d9" /><DocumentWindow Key="C:\Users\edward\Documents\PSoC Creator\AudioExample\Design01.cydsn\Design01.cydwr" Guid="296c9437-b387-4192-a6bb-7a35a017c852" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
