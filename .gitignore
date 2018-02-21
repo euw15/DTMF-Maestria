@@ -3,9 +3,9 @@
 **/*.cyprj.*
 
 # Generated Assets and Resources
-**/Debug/
-**/Release/
-**/Export/
+**/Debug/**
+**/Release/**
+**/Export/**
 **/codegentemp
 **/Generated_Source
 **_datasheet.pdf
