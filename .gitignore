@@ -8,11 +8,11 @@
 **/Export/**
 **/codegentemp
 **/Generated_Source
-**_datasheet.pdf
-**_timing.html
-**.cycdx
-**.cyfit
-**.rpt
-**.svd
+*_datasheet.pdf
+*_timing.html
+*.cycdx
+*.cyfit
+*.rpt
+*.svd
 **/*.log
 **/*.*_log

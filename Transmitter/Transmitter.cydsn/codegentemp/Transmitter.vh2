@@ -2,7 +2,7 @@
 --	Conversion of Transmitter.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Tue Feb 20 19:14:39 2018
+--	Sat Feb 24 14:35:46 2018
 --
 
 USE cypress.cypress.all;

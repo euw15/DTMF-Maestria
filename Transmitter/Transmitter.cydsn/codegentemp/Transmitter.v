@@ -1,6 +1,6 @@
 // ======================================================================
 // Transmitter.v generated from TopDesign.cysch
-// 02/20/2018 at 19:14
+// 02/24/2018 at 14:35
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -711,17 +711,17 @@ module top ;
           wire  Net_31;
           wire  Net_5;
           wire  Net_4;
-    electrical  Net_234;
-    electrical  Net_63;
-    electrical  Net_278;
-    electrical  Net_126;
-    electrical  Net_103;
     electrical  Net_173;
-    electrical  Net_266;
+    electrical  Net_278;
+    electrical  Net_234;
+    electrical  Net_103;
     electrical  Net_183;
-    electrical  Net_243;
     electrical  Net_222;
+    electrical  Net_243;
     electrical  Net_204;
+    electrical  Net_266;
+    electrical  Net_63;
+    electrical  Net_126;
           wire  Net_30;
           wire  Net_3;
           wire  Net_14;
