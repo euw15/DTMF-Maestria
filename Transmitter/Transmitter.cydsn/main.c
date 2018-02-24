@@ -12,14 +12,15 @@
 #include "project.h"
 
 //24MHz
-#define MSTR_CLK 24000000
+#define MASTER_CLK 24000000
+#define SMPL_SIZE 100
+#define TR_TIME_MS 500
+#define IDLE_TIME_MS 500
 
 int main(void)
 {
     /* Variable to store UART received character */
     uint8 Ch;
-    uint16 Dac1Output;
-    uint16 Dac2Output;
     short Dac1Freq, Dac2Freq;
     uint8 InputReceived = 0;
     //Dac1 -> 1029 - 1477
@@ -31,8 +32,8 @@ int main(void)
     WaveDAC8_1_Start();
     WaveDAC8_2_Start();
     UART_1_Start();
-    Clock_1_Start();
-    Clock_2_Start();
+    PWM_1_Start();
+    PWM_2_Start();
     
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
@@ -115,13 +116,17 @@ int main(void)
         
         if(InputReceived)
         {
-            //24MHz / DACFreq = Clk Divider
-            Clock_1_SetDivider(MSTR_CLK / Dac1Freq);
-            Clock_2_SetDivider(MSTR_CLK / Dac2Freq);
+            //24MHz / DACFreq * Samples = Clk Divider
+            PWM_1_WritePeriod(MASTER_CLK / (Dac1Freq * SMPL_SIZE));
+            PWM_2_WritePeriod(MASTER_CLK / (Dac2Freq * SMPL_SIZE));
+            
+            Master_Clk_Start();
+            CyDelay(TR_TIME_MS);
+            Master_Clk_Stop();
+            CyDelay(IDLE_TIME_MS);
             InputReceived = 0;
         }
         
-        WaveDAC8_1_
         
     }
 }

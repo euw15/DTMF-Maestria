@@ -21,24 +21,19 @@
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_1.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_1.h" value="HEADER;;;;;WaveDAC8_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_1_PM.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_1_aliases.h" value="HEADER;;;;;Pin_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_1.c" value="SOURCE_C;CortexM3;;;;Pin_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_1.h" value="HEADER;;;;;Pin_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_2.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_2" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_2.h" value="HEADER;;;;;WaveDAC8_2" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_2_PM.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_2" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_2_aliases.h" value="HEADER;;;;;Pin_2" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_2.c" value="SOURCE_C;CortexM3;;;;Pin_2" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_2.h" value="HEADER;;;;;Pin_2" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\UART_1.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\UART_1.h" value="HEADER;;;;;UART_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\UART_1_PM.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\UART_1_INT.c" value="SOURCE_C;CortexM3;;;;UART_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\UART_1_BOOT.c" value="SOURCE_C;CortexM3;;;;UART_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM3;;;;Clock_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM3;;;;Clock_2" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_1.c" value="SOURCE_C;CortexM3;;;;PWM_1" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_1.h" value="HEADER;;;;;PWM_1" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_1_PM.c" value="SOURCE_C;CortexM3;;;;PWM_1" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Master_Clk.c" value="SOURCE_C;CortexM3;;;;Master_Clk" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Master_Clk.h" value="HEADER;;;;;Master_Clk" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Opamp_1.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Opamp_1.h" value="HEADER;;;;;Opamp_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Opamp_1_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
@@ -60,6 +55,9 @@
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_5_aliases.h" value="HEADER;;;;;Pin_5" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_5.c" value="SOURCE_C;CortexM3;;;;Pin_5" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_5.h" value="HEADER;;;;;Pin_5" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_2.c" value="SOURCE_C;CortexM3;;;;PWM_2" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_2.h" value="HEADER;;;;;PWM_2" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_2_PM.c" value="SOURCE_C;CortexM3;;;;PWM_2" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave1_DMA" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_1_Wave1_DMA_dma.h" value="HEADER;;;;;WaveDAC8_1_Wave1_DMA" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\WaveDAC8_1_Wave2_DMA_dma.c" value="SOURCE_C;CortexM3;;;;WaveDAC8_1_Wave2_DMA" />
