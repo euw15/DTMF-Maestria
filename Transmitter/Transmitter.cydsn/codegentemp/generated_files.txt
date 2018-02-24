@@ -37,24 +37,21 @@
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Opamp_1.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Opamp_1.h" value="HEADER;;;;;Opamp_1" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Opamp_1_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Vout_1_aliases.h" value="HEADER;;;;;Vout_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Vout_1.c" value="SOURCE_C;CortexM3;;;;Vout_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Vout_1.h" value="HEADER;;;;;Vout_1" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_7_aliases.h" value="HEADER;;;;;Pin_7" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_7.c" value="SOURCE_C;CortexM3;;;;Pin_7" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_7.h" value="HEADER;;;;;Pin_7" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_6_aliases.h" value="HEADER;;;;;Pin_6" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_6.c" value="SOURCE_C;CortexM3;;;;Pin_6" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_6.h" value="HEADER;;;;;Pin_6" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_3_aliases.h" value="HEADER;;;;;Pin_3" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_3.c" value="SOURCE_C;CortexM3;;;;Pin_3" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_3.h" value="HEADER;;;;;Pin_3" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_4_aliases.h" value="HEADER;;;;;Pin_4" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_4.c" value="SOURCE_C;CortexM3;;;;Pin_4" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_4.h" value="HEADER;;;;;Pin_4" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_5_aliases.h" value="HEADER;;;;;Pin_5" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_5.c" value="SOURCE_C;CortexM3;;;;Pin_5" />
-  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_5.h" value="HEADER;;;;;Pin_5" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_Out_AMP_aliases.h" value="HEADER;;;;;Pin_Out_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_Out_AMP.c" value="SOURCE_C;CortexM3;;;;Pin_Out_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_Out_AMP.h" value="HEADER;;;;;Pin_Out_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_I_AMP_aliases.h" value="HEADER;;;;;Pin_I_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_I_AMP.c" value="SOURCE_C;CortexM3;;;;Pin_I_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_I_AMP.h" value="HEADER;;;;;Pin_I_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_DAC_1_aliases.h" value="HEADER;;;;;Pin_DAC_1" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_DAC_1.c" value="SOURCE_C;CortexM3;;;;Pin_DAC_1" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_DAC_1.h" value="HEADER;;;;;Pin_DAC_1" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_DAC_2_aliases.h" value="HEADER;;;;;Pin_DAC_2" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_DAC_2.c" value="SOURCE_C;CortexM3;;;;Pin_DAC_2" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_DAC_2.h" value="HEADER;;;;;Pin_DAC_2" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_NI_AMP_aliases.h" value="HEADER;;;;;Pin_NI_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_NI_AMP.c" value="SOURCE_C;CortexM3;;;;Pin_NI_AMP" />
+  <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\Pin_NI_AMP.h" value="HEADER;;;;;Pin_NI_AMP" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_2.c" value="SOURCE_C;CortexM3;;;;PWM_2" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_2.h" value="HEADER;;;;;PWM_2" />
   <file name="D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\codegentemp\PWM_2_PM.c" value="SOURCE_C;CortexM3;;;;PWM_2" />

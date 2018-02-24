@@ -4,3 +4,4 @@ C:\Users\lopezgui\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 
 C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0234becd-db98-44d9-987c-abf0cc647afc
 C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|3deea45a-d61b-4873-b8d1-520a4a251c60
 C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6bca747a-ab5d-40f9-9ef7-9ff462bf6b76
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|3b1330fc-5ea5-4415-b6d7-37ca710452ce
