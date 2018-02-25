@@ -1,3 +1,3 @@
-# Component constraints for D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\TopDesign\TopDesign.cysch
-# Project: D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\Transmitter.cyprj
-# Date: Sat, 24 Feb 2018 22:50:23 GMT
+# Component constraints for D:\GitRepos\DTMF-Maestria\Transmitter\Transmitter.cydsn\TopDesign\TopDesign.cysch
+# Project: D:\GitRepos\DTMF-Maestria\Transmitter\Transmitter.cydsn\Transmitter.cyprj
+# Date: Sun, 25 Feb 2018 04:28:22 GMT

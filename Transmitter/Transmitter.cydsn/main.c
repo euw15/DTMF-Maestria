@@ -9,13 +9,47 @@
  *
  * ========================================
 */
+#include "stdio.h"
 #include "project.h"
 
 //24MHz
-#define MASTER_CLK 24000000
+#define MASTER_CLK 12000000
 #define SMPL_SIZE 100
 #define TR_TIME_MS 500
 #define IDLE_TIME_MS 500
+#define SAMPLE_BUFFER_SIZE 2000
+
+/* Capture Adc Data*/
+int16 Output;
+int16 Samples[SAMPLE_BUFFER_SIZE];
+char TransmitUARTBuffer[16];
+
+void CaptureADCData()
+{
+    int SampleIdx = 0;
+    for(;;)
+    {
+        if(ADC_DelSig_1_IsEndConversion(ADC_DelSig_1_RETURN_STATUS))
+        {
+            Output = ADC_DelSig_1_GetResult16();
+            Samples[SampleIdx] = Output;
+            SampleIdx++;
+            if(SampleIdx == SAMPLE_BUFFER_SIZE)
+            {
+                break;
+            }
+        }
+    }
+}
+
+void SendBufferByUART()
+{
+    for(int SampleIdx = 0; SampleIdx < SAMPLE_BUFFER_SIZE; SampleIdx++)
+    {
+        sprintf(TransmitUARTBuffer, "%d\r\n", Samples[SampleIdx]);
+        UART_1_PutString(TransmitUARTBuffer);
+    }
+}
 
 int main(void)
 {
@@ -29,13 +63,21 @@ int main(void)
     CyGlobalIntEnable; /* Enable global interrupts. */
     
     /* Initialize Components */
+    Master_Clk_Stop();
+    Opamp_1_Start();
     WaveDAC8_1_Start();
     WaveDAC8_2_Start();
     UART_1_Start();
     PWM_1_Start();
     PWM_2_Start();
     
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    ADC_DelSig_1_Start();   // For Testing purposes
+    
+    /* Start the ADC Conversion*/
+    ADC_DelSig_1_StartConvert();
+    
+    UART_1_PutString("COM Port Open");
+    
 
     for(;;)
     {
@@ -104,11 +146,6 @@ int main(void)
                 Dac2Freq = 941;
                 InputReceived = 1;
                 break;
-            case 'e':
-            case 'E':
-                break;
-            case 's':
-            case 'S':
                 break;
             default:
             break;
@@ -121,13 +158,13 @@ int main(void)
             PWM_2_WritePeriod(MASTER_CLK / (Dac2Freq * SMPL_SIZE));
             
             Master_Clk_Start();
+            CaptureADCData();       // Testing Purposes (in case of failure please contact Guille)
             CyDelay(TR_TIME_MS);
             Master_Clk_Stop();
             CyDelay(IDLE_TIME_MS);
             InputReceived = 0;
+            SendBufferByUART();     // Testing Purposes (in case of failure please contact Guille)
         }
-        
-        
     }
 }
 

@@ -17,8 +17,8 @@
 
 uint8  WaveDAC8_2_initVar = 0u;
 
-const uint8 CYCODE WaveDAC8_2_wave1[WaveDAC8_2_WAVE1_LENGTH] = { 128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u,128u };
-const uint8 CYCODE WaveDAC8_2_wave2[WaveDAC8_2_WAVE2_LENGTH] = { 125u,133u,141u,148u,156u,164u,171u,178u,185u,192u,198u,205u,211u,216u,221u,226u,231u,235u,238u,241u,244u,246u,248u,249u,250u,250u,250u,249u,248u,246u,244u,241u,238u,235u,231u,226u,221u,216u,211u,205u,198u,192u,185u,178u,171u,164u,156u,148u,141u,133u,125u,117u,109u,102u,94u,86u,79u,72u,65u,58u,52u,45u,39u,34u,29u,24u,19u,15u,12u,9u,6u,4u,2u,1u,0u,0u,0u,1u,2u,4u,6u,9u,12u,15u,19u,24u,29u,34u,39u,45u,52u,58u,65u,72u,79u,86u,94u,102u,109u,117u };
+const uint8 CYCODE WaveDAC8_2_wave1[WaveDAC8_2_WAVE1_LENGTH] = { 125u,133u,141u,148u,156u,164u,171u,178u,185u,192u,198u,205u,211u,216u,221u,226u,231u,235u,238u,241u,244u,246u,248u,249u,250u,250u,250u,249u,248u,246u,244u,241u,238u,235u,231u,226u,221u,216u,211u,205u,198u,192u,185u,178u,171u,164u,156u,148u,141u,133u,125u,117u,109u,102u,94u,86u,79u,72u,65u,58u,52u,45u,39u,34u,29u,24u,19u,15u,12u,9u,6u,4u,2u,1u,0u,0u,0u,1u,2u,4u,6u,9u,12u,15u,19u,24u,29u,34u,39u,45u,52u,58u,65u,72u,79u,86u,94u,102u,109u,117u };
+const uint8 CYCODE WaveDAC8_2_wave2[WaveDAC8_2_WAVE2_LENGTH] = { 0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u,0u };
 
 static uint8  WaveDAC8_2_Wave1Chan;
 static uint8  WaveDAC8_2_Wave2Chan;
