@@ -1,5 +1,5 @@
 -- Project:   Transmitter
--- Generated: 02/24/2018 22:28:29
+-- Generated: 02/25/2018 15:23:49
 -- PSoC Creator  4.1 Update 1
 
 ENTITY Transmitter IS
@@ -68,7 +68,6 @@ ARCHITECTURE __DEFAULT__ OF Transmitter IS
     SIGNAL \ADC_DelSig_1:mod_dat_3\ : bit;
     SIGNAL \ADC_DelSig_1:mod_reset\ : bit;
     SIGNAL \PWM_1:PWMUDB:cmp1_less\ : bit;
-    SIGNAL \PWM_1:PWMUDB:cmp2_less\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_0\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_1\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_2\ : bit;
@@ -78,15 +77,12 @@ ARCHITECTURE __DEFAULT__ OF Transmitter IS
     SIGNAL \PWM_1:PWMUDB:control_6\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_7\ : bit;
     SIGNAL \PWM_1:PWMUDB:prevCompare1\ : bit;
-    SIGNAL \PWM_1:PWMUDB:prevCompare2\ : bit;
     SIGNAL \PWM_1:PWMUDB:runmode_enable\ : bit;
     SIGNAL \PWM_1:PWMUDB:status_0\ : bit;
-    SIGNAL \PWM_1:PWMUDB:status_1\ : bit;
     SIGNAL \PWM_1:PWMUDB:status_2\ : bit;
     SIGNAL \PWM_1:PWMUDB:status_3\ : bit;
     SIGNAL \PWM_1:PWMUDB:tc_i\ : bit;
     SIGNAL \PWM_2:PWMUDB:cmp1_less\ : bit;
-    SIGNAL \PWM_2:PWMUDB:cmp2_less\ : bit;
     SIGNAL \PWM_2:PWMUDB:control_0\ : bit;
     SIGNAL \PWM_2:PWMUDB:control_1\ : bit;
     SIGNAL \PWM_2:PWMUDB:control_2\ : bit;
@@ -96,10 +92,8 @@ ARCHITECTURE __DEFAULT__ OF Transmitter IS
     SIGNAL \PWM_2:PWMUDB:control_6\ : bit;
     SIGNAL \PWM_2:PWMUDB:control_7\ : bit;
     SIGNAL \PWM_2:PWMUDB:prevCompare1\ : bit;
-    SIGNAL \PWM_2:PWMUDB:prevCompare2\ : bit;
     SIGNAL \PWM_2:PWMUDB:runmode_enable\ : bit;
     SIGNAL \PWM_2:PWMUDB:status_0\ : bit;
-    SIGNAL \PWM_2:PWMUDB:status_1\ : bit;
     SIGNAL \PWM_2:PWMUDB:status_2\ : bit;
     SIGNAL \PWM_2:PWMUDB:status_3\ : bit;
     SIGNAL \PWM_2:PWMUDB:tc_i\ : bit;
@@ -206,18 +200,14 @@ ARCHITECTURE __DEFAULT__ OF Transmitter IS
     ATTRIBUTE lib_model OF \UART_1:BUART:rx_last\ : LABEL IS "macrocell27";
     ATTRIBUTE lib_model OF \PWM_1:PWMUDB:runmode_enable\ : LABEL IS "macrocell28";
     ATTRIBUTE lib_model OF \PWM_1:PWMUDB:prevCompare1\ : LABEL IS "macrocell29";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:prevCompare2\ : LABEL IS "macrocell30";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_0\ : LABEL IS "macrocell31";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_1\ : LABEL IS "macrocell32";
-    ATTRIBUTE lib_model OF Net_328 : LABEL IS "macrocell33";
-    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:runmode_enable\ : LABEL IS "macrocell34";
+    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_0\ : LABEL IS "macrocell30";
+    ATTRIBUTE lib_model OF Net_328 : LABEL IS "macrocell31";
+    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:runmode_enable\ : LABEL IS "macrocell32";
     ATTRIBUTE lib_model OF Dedicated_Output : LABEL IS "iocell3";
     ATTRIBUTE Location OF Dedicated_Output : LABEL IS "P3[7]";
-    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:prevCompare1\ : LABEL IS "macrocell35";
-    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:prevCompare2\ : LABEL IS "macrocell36";
-    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:status_0\ : LABEL IS "macrocell37";
-    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:status_1\ : LABEL IS "macrocell38";
-    ATTRIBUTE lib_model OF Net_502 : LABEL IS "macrocell39";
+    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:prevCompare1\ : LABEL IS "macrocell33";
+    ATTRIBUTE lib_model OF \PWM_2:PWMUDB:status_0\ : LABEL IS "macrocell34";
+    ATTRIBUTE lib_model OF Net_502 : LABEL IS "macrocell35";
     COMPONENT abufcell
     END COMPONENT;
     COMPONENT clockblockcell
@@ -1196,7 +1186,7 @@ BEGIN
             status_4 => open,
             status_3 => \PWM_1:PWMUDB:status_3\,
             status_2 => \PWM_1:PWMUDB:status_2\,
-            status_1 => \PWM_1:PWMUDB:status_1\,
+            status_1 => open,
             status_0 => \PWM_1:PWMUDB:status_0\);
 
     \PWM_1:PWMUDB:sP8:pwmdp:u0\:datapathcell
@@ -1232,7 +1222,6 @@ BEGIN
             cs_addr_1 => \PWM_1:PWMUDB:runmode_enable\,
             cl0_comb => \PWM_1:PWMUDB:cmp1_less\,
             z0_comb => \PWM_1:PWMUDB:tc_i\,
-            cl1_comb => \PWM_1:PWMUDB:cmp2_less\,
             f1_blk_stat_comb => \PWM_1:PWMUDB:status_3\,
             busclk => ClockBlock_BUS_CLK);
 
@@ -1275,7 +1264,7 @@ BEGIN
             status_4 => open,
             status_3 => \PWM_2:PWMUDB:status_3\,
             status_2 => \PWM_2:PWMUDB:status_2\,
-            status_1 => \PWM_2:PWMUDB:status_1\,
+            status_1 => open,
             status_0 => \PWM_2:PWMUDB:status_0\);
 
     \PWM_2:PWMUDB:sP8:pwmdp:u0\:datapathcell
@@ -1311,7 +1300,6 @@ BEGIN
             cs_addr_1 => \PWM_2:PWMUDB:runmode_enable\,
             cl0_comb => \PWM_2:PWMUDB:cmp1_less\,
             z0_comb => \PWM_2:PWMUDB:tc_i\,
-            cl1_comb => \PWM_2:PWMUDB:cmp2_less\,
             f1_blk_stat_comb => \PWM_2:PWMUDB:status_3\,
             busclk => ClockBlock_BUS_CLK);
 
@@ -1633,17 +1621,6 @@ BEGIN
             clock_0 => Net_30,
             main_0 => \PWM_1:PWMUDB:cmp1_less\);
 
-    \PWM_1:PWMUDB:prevCompare2\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \PWM_1:PWMUDB:prevCompare2\,
-            clock_0 => Net_30,
-            main_0 => \PWM_1:PWMUDB:cmp2_less\);
-
     \PWM_1:PWMUDB:status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * main_1)",
@@ -1655,18 +1632,6 @@ BEGIN
             clock_0 => Net_30,
             main_0 => \PWM_1:PWMUDB:prevCompare1\,
             main_1 => \PWM_1:PWMUDB:cmp1_less\);
-
-    \PWM_1:PWMUDB:status_1\:macrocell
-        GENERIC MAP(
-            eqn_main => "(!main_0 * main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \PWM_1:PWMUDB:status_1\,
-            clock_0 => Net_30,
-            main_0 => \PWM_1:PWMUDB:prevCompare2\,
-            main_1 => \PWM_1:PWMUDB:cmp2_less\);
 
     Net_328:macrocell
         GENERIC MAP(
@@ -1717,17 +1682,6 @@ BEGIN
             clock_0 => Net_30,
             main_0 => \PWM_2:PWMUDB:cmp1_less\);
 
-    \PWM_2:PWMUDB:prevCompare2\:macrocell
-        GENERIC MAP(
-            eqn_main => "(main_0)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \PWM_2:PWMUDB:prevCompare2\,
-            clock_0 => Net_30,
-            main_0 => \PWM_2:PWMUDB:cmp2_less\);
-
     \PWM_2:PWMUDB:status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * main_1)",
@@ -1739,18 +1693,6 @@ BEGIN
             clock_0 => Net_30,
             main_0 => \PWM_2:PWMUDB:prevCompare1\,
             main_1 => \PWM_2:PWMUDB:cmp1_less\);
-
-    \PWM_2:PWMUDB:status_1\:macrocell
-        GENERIC MAP(
-            eqn_main => "(!main_0 * main_1)",
-            regmode => 1,
-            clk_inv => '0',
-            clken_mode => 1)
-        PORT MAP(
-            q => \PWM_2:PWMUDB:status_1\,
-            clock_0 => Net_30,
-            main_0 => \PWM_2:PWMUDB:prevCompare2\,
-            main_1 => \PWM_2:PWMUDB:cmp2_less\);
 
     Net_502:macrocell
         GENERIC MAP(

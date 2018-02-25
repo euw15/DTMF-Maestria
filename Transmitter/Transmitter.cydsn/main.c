@@ -55,7 +55,7 @@ int main(void)
 {
     /* Variable to store UART received character */
     uint8 Ch;
-    short Dac1Freq, Dac2Freq;
+    short Dac1Div, Dac2Div;
     uint8 InputReceived = 0;
     //Dac1 -> 1029 - 1477
     //Dac2 -> 697 - 941
@@ -87,65 +87,64 @@ int main(void)
         
         switch(Ch){
             case '1':
-                Dac1Freq = 1209;
-                Dac2Freq = 697;
+                Dac1Div = 99; //1209Hz
+                Dac2Div = 172; //697Hz
                 InputReceived = 1;
                 break;
             case '2':
-                Dac1Freq = 1336;
-                Dac2Freq = 697;
+                Dac1Div = 90; //1336Hz
+                Dac2Div = 172;//697Hz
                 InputReceived = 1;
                 break;
             case '3':
-                Dac1Freq = 1477;
-                Dac2Freq = 697;
+                Dac1Div = 81; //1477Hz
+                Dac2Div = 172; //697Hz
                 InputReceived = 1;
                 break;
             case '4':
-                Dac1Freq = 1209;
-                Dac2Freq = 770;
+                Dac1Div = 99; //1209Hz
+                Dac2Div = 156; //770Hz
                 InputReceived = 1;
                 break;
             case '5':
-                Dac1Freq = 1336;
-                Dac2Freq = 770;
+                Dac1Div = 90; //1336Hz
+                Dac2Div = 156; //770Hz
                 InputReceived = 1;
                 break;
             case '6':
-                Dac1Freq = 1477;
-                Dac2Freq = 770;
+                Dac1Div = 81; //1477Hz
+                Dac2Div = 156; //770Hz
                 InputReceived = 1;
                 break;
             case '7':
-                Dac1Freq = 1209;
-                Dac2Freq = 852;
+                Dac1Div = 99; //1209Hz
+                Dac2Div = 141; //852Hz
                 InputReceived = 1;
                 break;
             case '8':
-                Dac1Freq = 1336;
-                Dac2Freq = 852;
+                Dac1Div = 90; //1336Hz
+                Dac2Div = 141; //852Hz
                 InputReceived = 1;
                 break;
             case '9':
-                Dac1Freq = 1477;
-                Dac2Freq = 852;
+                Dac1Div = 81; //1477Hz
+                Dac2Div = 141; //852Hz
                 InputReceived = 1;
                 break;
             case '*':
-                Dac1Freq = 1209;
-                Dac2Freq = 941;
+                Dac1Div = 99; //1209Hz
+                Dac2Div = 128; //941Hz
                 InputReceived = 1;
                 break;
             case '0':
-                Dac1Freq = 1336;
-                Dac2Freq = 941;
+                Dac1Div = 90; //1336Hz
+                Dac2Div = 128; //941Hz
                 InputReceived = 1;
                 break;
             case '#':
-                Dac1Freq = 1477;
-                Dac2Freq = 941;
+                Dac1Div = 81; //1477Hz
+                Dac2Div = 128; //941Hz
                 InputReceived = 1;
-                break;
                 break;
             default:
             break;
@@ -153,9 +152,9 @@ int main(void)
         
         if(InputReceived)
         {
-            //24MHz / DACFreq * Samples = Clk Divider
-            PWM_1_WritePeriod(MASTER_CLK / (Dac1Freq * SMPL_SIZE));
-            PWM_2_WritePeriod(MASTER_CLK / (Dac2Freq * SMPL_SIZE));
+            //12MHz / DACFreq * Samples = Clk Divider
+            PWM_1_WritePeriod(Dac1Div);
+            PWM_2_WritePeriod(Dac2Div);
             
             Master_Clk_Start();
             CaptureADCData();       // Testing Purposes (in case of failure please contact Guille)
