@@ -15,7 +15,7 @@
 //24MHz
 #define MASTER_CLK 12000000
 #define SMPL_SIZE 100
-#define TR_TIME_MS 500
+#define TR_TIME_MS 10000
 #define IDLE_TIME_MS 500
 #define SAMPLE_BUFFER_SIZE 2000
 
@@ -71,13 +71,11 @@ int main(void)
     PWM_1_Start();
     PWM_2_Start();
     
-    ADC_DelSig_1_Start();   // For Testing purposes
-    
     /* Start the ADC Conversion*/
+    ADC_DelSig_1_Start();   // For Testing purposes
     ADC_DelSig_1_StartConvert();
     
     UART_1_PutString("COM Port Open");
-    
 
     for(;;)
     {

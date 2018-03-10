@@ -1,6 +1,6 @@
 // ======================================================================
 // Transmitter.v generated from TopDesign.cysch
-// 02/25/2018 at 15:23
+// 03/04/2018 at 19:13
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -244,7 +244,7 @@ endmodule
 `include "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cydff_v1_30\cydff_v1_30.v"
 `endif
 
-// WaveDAC8_v2_10(Clock_SRC=0, DAC_Range=0, DacModeReplString=VDAC8, Sample_Clock_Freq=500, Wave1_Amplitude=1, Wave1_Data=125u,133u,141u,148u,156u,164u,171u,178u,185u,192u,198u,205u,211u,216u,221u,226u,231u,235u,238u,241u,244u,246u,248u,249u,250u,250u,250u,249u,248u,246u,244u,241u,238u,235u,231u,226u,221u,216u,211u,205u,198u,192u,185u,178u,171u,164u,156u,148u,141u,133u,125u,117u,109u,102u,94u,86u,79u,72u,65u,58u,52u,45u,39u,34u,29u,24u,19u,15u,12u,9u,6u,4u,2u,1u,0u,0u,0u,1u,2u,4u,6u,9u,12u,15u,19u,24u,29u,34u,39u,45u,52u,58u,65u,72u,79u,86u,94u,102u,109u,117u, Wave1_DCOffset=0.5, Wave1_Length=100, Wave1_PhaseShift=0, Wave1_Type=0, Wave2_Amplitude=1, Wave2_Data=125u,133u,141u,148u,156u,164u,171u,178u,185u,192u,198u,205u,211u,216u,221u,226u,231u,235u,238u,241u,244u,246u,248u,249u,250u,250u,250u,249u,248u,246u,244u,241u,238u,235u,231u,226u,221u,216u,211u,205u,198u,192u,185u,178u,171u,164u,156u,148u,141u,133u,125u,117u,109u,102u,94u,86u,79u,72u,65u,58u,52u,45u,39u,34u,29u,24u,19u,15u,12u,9u,6u,4u,2u,1u,0u,0u,0u,1u,2u,4u,6u,9u,12u,15u,19u,24u,29u,34u,39u,45u,52u,58u,65u,72u,79u,86u,94u,102u,109u,117u, Wave2_DCOffset=0.5, Wave2_Length=100, Wave2_PhaseShift=0, Wave2_Type=0, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=WaveDAC8_v2_10, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=WaveDAC8_1, CY_INSTANCE_SHORT_NAME=WaveDAC8_1, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=WaveDAC8_1, )
+// WaveDAC8_v2_10(Clock_SRC=0, DAC_Range=1, DacModeReplString=VDAC8, Sample_Clock_Freq=500, Wave1_Amplitude=4, Wave1_Data=128u,135u,143u,151u,159u,166u,174u,181u,188u,194u,201u,207u,213u,219u,224u,229u,233u,237u,241u,244u,246u,249u,250u,252u,252u,252u,252u,252u,250u,249u,246u,244u,241u,237u,233u,229u,224u,219u,213u,207u,201u,194u,188u,181u,174u,166u,159u,151u,143u,135u,128u,120u,112u,104u,96u,89u,81u,74u,67u,61u,54u,48u,42u,36u,31u,26u,22u,18u,14u,11u,9u,6u,5u,3u,3u,3u,3u,3u,5u,6u,9u,11u,14u,18u,22u,26u,31u,36u,42u,48u,54u,61u,67u,74u,81u,89u,96u,104u,112u,120u, Wave1_DCOffset=2.04, Wave1_Length=100, Wave1_PhaseShift=0, Wave1_Type=0, Wave2_Amplitude=4, Wave2_Data=128u,135u,143u,151u,159u,166u,174u,181u,188u,194u,201u,207u,213u,219u,224u,229u,233u,237u,241u,244u,246u,249u,250u,252u,252u,252u,252u,252u,250u,249u,246u,244u,241u,237u,233u,229u,224u,219u,213u,207u,201u,194u,188u,181u,174u,166u,159u,151u,143u,135u,128u,120u,112u,104u,96u,89u,81u,74u,67u,61u,54u,48u,42u,36u,31u,26u,22u,18u,14u,11u,9u,6u,5u,3u,3u,3u,3u,3u,5u,6u,9u,11u,14u,18u,22u,26u,31u,36u,42u,48u,54u,61u,67u,74u,81u,89u,96u,104u,112u,120u, Wave2_DCOffset=2.04, Wave2_Length=100, Wave2_PhaseShift=0, Wave2_Type=0, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=WaveDAC8_v2_10, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=WaveDAC8_1, CY_INSTANCE_SHORT_NAME=WaveDAC8_1, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=WaveDAC8_1, )
 module WaveDAC8_v2_10_1 (
     Wave,
     ws,
@@ -419,7 +419,7 @@ module VDAC8_v1_90_2 (
 
 endmodule
 
-// WaveDAC8_v2_10(Clock_SRC=0, DAC_Range=0, DacModeReplString=VDAC8, Sample_Clock_Freq=100000, Wave1_Amplitude=1, Wave1_Data=125u,133u,141u,148u,156u,164u,171u,178u,185u,192u,198u,205u,211u,216u,221u,226u,231u,235u,238u,241u,244u,246u,248u,249u,250u,250u,250u,249u,248u,246u,244u,241u,238u,235u,231u,226u,221u,216u,211u,205u,198u,192u,185u,178u,171u,164u,156u,148u,141u,133u,125u,117u,109u,102u,94u,86u,79u,72u,65u,58u,52u,45u,39u,34u,29u,24u,19u,15u,12u,9u,6u,4u,2u,1u,0u,0u,0u,1u,2u,4u,6u,9u,12u,15u,19u,24u,29u,34u,39u,45u,52u,58u,65u,72u,79u,86u,94u,102u,109u,117u, Wave1_DCOffset=0.5, Wave1_Length=100, Wave1_PhaseShift=0, Wave1_Type=0, Wave2_Amplitude=1, Wave2_Data=125u,133u,141u,148u,156u,164u,171u,178u,185u,192u,198u,205u,211u,216u,221u,226u,231u,235u,238u,241u,244u,246u,248u,249u,250u,250u,250u,249u,248u,246u,244u,241u,238u,235u,231u,226u,221u,216u,211u,205u,198u,192u,185u,178u,171u,164u,156u,148u,141u,133u,125u,117u,109u,102u,94u,86u,79u,72u,65u,58u,52u,45u,39u,34u,29u,24u,19u,15u,12u,9u,6u,4u,2u,1u,0u,0u,0u,1u,2u,4u,6u,9u,12u,15u,19u,24u,29u,34u,39u,45u,52u,58u,65u,72u,79u,86u,94u,102u,109u,117u, Wave2_DCOffset=0.5, Wave2_Length=100, Wave2_PhaseShift=0, Wave2_Type=0, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=WaveDAC8_v2_10, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=WaveDAC8_2, CY_INSTANCE_SHORT_NAME=WaveDAC8_2, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=WaveDAC8_2, )
+// WaveDAC8_v2_10(Clock_SRC=0, DAC_Range=1, DacModeReplString=VDAC8, Sample_Clock_Freq=100000, Wave1_Amplitude=4, Wave1_Data=128u,135u,143u,151u,159u,166u,174u,181u,188u,194u,201u,207u,213u,219u,224u,229u,233u,237u,241u,244u,246u,249u,250u,252u,252u,252u,252u,252u,250u,249u,246u,244u,241u,237u,233u,229u,224u,219u,213u,207u,201u,194u,188u,181u,174u,166u,159u,151u,143u,135u,128u,120u,112u,104u,96u,89u,81u,74u,67u,61u,54u,48u,42u,36u,31u,26u,22u,18u,14u,11u,9u,6u,5u,3u,3u,3u,3u,3u,5u,6u,9u,11u,14u,18u,22u,26u,31u,36u,42u,48u,54u,61u,67u,74u,81u,89u,96u,104u,112u,120u, Wave1_DCOffset=2.04, Wave1_Length=100, Wave1_PhaseShift=0, Wave1_Type=0, Wave2_Amplitude=4, Wave2_Data=128u,135u,143u,151u,159u,166u,174u,181u,188u,194u,201u,207u,213u,219u,224u,229u,233u,237u,241u,244u,246u,249u,250u,252u,252u,252u,252u,252u,250u,249u,246u,244u,241u,237u,233u,229u,224u,219u,213u,207u,201u,194u,188u,181u,174u,166u,159u,151u,143u,135u,128u,120u,112u,104u,96u,89u,81u,74u,67u,61u,54u,48u,42u,36u,31u,26u,22u,18u,14u,11u,9u,6u,5u,3u,3u,3u,3u,3u,5u,6u,9u,11u,14u,18u,22u,26u,31u,36u,42u,48u,54u,61u,67u,74u,81u,89u,96u,104u,112u,120u, Wave2_DCOffset=2.04, Wave2_Length=100, Wave2_PhaseShift=0, Wave2_Type=0, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=WaveDAC8_v2_10, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=WaveDAC8_2, CY_INSTANCE_SHORT_NAME=WaveDAC8_2, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=10, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=WaveDAC8_2, )
 module WaveDAC8_v2_10_3 (
     Wave,
     ws,
@@ -793,7 +793,7 @@ module PWM_v3_30_5 (
 
 endmodule
 
-// OpAmp_v1_90(Mode=1, Power=1, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=OpAmp_v1_90, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=Opamp_1, CY_INSTANCE_SHORT_NAME=Opamp_1, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=90, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=Opamp_1, )
+// OpAmp_v1_90(Mode=1, Power=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=OpAmp_v1_90, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=Opamp_1, CY_INSTANCE_SHORT_NAME=Opamp_1, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=90, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=Opamp_1, )
 module OpAmp_v1_90_6 (
     Vplus,
     Vout,
@@ -942,7 +942,7 @@ endmodule
 `include "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\AMux_v1_80\AMux_v1_80.v"
 `endif
 
-// ADC_DelSig_v3_20(ADC_Alignment=0, ADC_Alignment_Config2=0, ADC_Alignment_Config3=0, ADC_Alignment_Config4=0, ADC_Charge_Pump_Clock=true, ADC_Clock=1, ADC_CLOCK_FREQUENCY=160000, ADC_Input_Mode=1, ADC_Input_Range=1, ADC_Input_Range_Config2=4, ADC_Input_Range_Config3=4, ADC_Input_Range_Config4=4, ADC_Power=1, ADC_Reference=0, ADC_Reference_Config2=0, ADC_Reference_Config3=0, ADC_Reference_Config4=0, ADC_Resolution=8, ADC_Resolution_Config2=16, ADC_Resolution_Config3=16, ADC_Resolution_Config4=16, Clock_Frequency=64000, Comment_Config1=Default Config, Comment_Config2=Second Config, Comment_Config3=Third Config, Comment_Config4=Fourth Config, Config1_Name=CFG1, Config2_Name=CFG2, Config3_Name=CFG3, Config4_Name=CFG4, Configs=1, Conversion_Mode=2, Conversion_Mode_Config2=2, Conversion_Mode_Config3=2, Conversion_Mode_Config4=2, Enable_Vref_Vss=false, EnableModulatorInput=false, Input_Buffer_Gain=1, Input_Buffer_Gain_Config2=1, Input_Buffer_Gain_Config3=1, Input_Buffer_Gain_Config4=1, Input_Buffer_Mode=1, Input_Buffer_Mode_Config2=1, Input_Buffer_Mode_Config3=1, Input_Buffer_Mode_Config4=1, Ref_Voltage=1.024, Ref_Voltage_Config2=1.024, Ref_Voltage_Config3=1.024, Ref_Voltage_Config4=1.024, rm_int=false, Sample_Rate=10000, Sample_Rate_Config2=10000, Sample_Rate_Config3=10000, Sample_Rate_Config4=10000, Start_of_Conversion=0, Vdda_Value=5, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=ADC_DelSig_v3_20, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=ADC_DelSig_1, CY_INSTANCE_SHORT_NAME=ADC_DelSig_1, CY_MAJOR_VERSION=3, CY_MINOR_VERSION=20, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=ADC_DelSig_1, )
+// ADC_DelSig_v3_20(ADC_Alignment=0, ADC_Alignment_Config2=0, ADC_Alignment_Config3=0, ADC_Alignment_Config4=0, ADC_Charge_Pump_Clock=true, ADC_Clock=1, ADC_CLOCK_FREQUENCY=160000, ADC_Input_Mode=1, ADC_Input_Range=3, ADC_Input_Range_Config2=4, ADC_Input_Range_Config3=4, ADC_Input_Range_Config4=4, ADC_Power=1, ADC_Reference=0, ADC_Reference_Config2=0, ADC_Reference_Config3=0, ADC_Reference_Config4=0, ADC_Resolution=8, ADC_Resolution_Config2=16, ADC_Resolution_Config3=16, ADC_Resolution_Config4=16, Clock_Frequency=64000, Comment_Config1=Default Config, Comment_Config2=Second Config, Comment_Config3=Third Config, Comment_Config4=Fourth Config, Config1_Name=CFG1, Config2_Name=CFG2, Config3_Name=CFG3, Config4_Name=CFG4, Configs=1, Conversion_Mode=2, Conversion_Mode_Config2=2, Conversion_Mode_Config3=2, Conversion_Mode_Config4=2, Enable_Vref_Vss=false, EnableModulatorInput=false, Input_Buffer_Gain=1, Input_Buffer_Gain_Config2=1, Input_Buffer_Gain_Config3=1, Input_Buffer_Gain_Config4=1, Input_Buffer_Mode=1, Input_Buffer_Mode_Config2=1, Input_Buffer_Mode_Config3=1, Input_Buffer_Mode_Config4=1, Ref_Voltage=1.024, Ref_Voltage_Config2=1.024, Ref_Voltage_Config3=1.024, Ref_Voltage_Config4=1.024, rm_int=false, Sample_Rate=10000, Sample_Rate_Config2=10000, Sample_Rate_Config3=10000, Sample_Rate_Config4=10000, Start_of_Conversion=0, Vdda_Value=5, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=ADC_DelSig_v3_20, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=ADC_DelSig_1, CY_INSTANCE_SHORT_NAME=ADC_DelSig_1, CY_MAJOR_VERSION=3, CY_MINOR_VERSION=20, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.1 Update 1, INSTANCE_NAME=ADC_DelSig_1, )
 module ADC_DelSig_v3_20_8 (
     vplus,
     vminus,
@@ -1005,14 +1005,14 @@ module ADC_DelSig_v3_20_8 (
 
 
 	// cy_analog_virtualmux_6 (cy_analog_virtualmux_v1_0)
-	cy_connect_v1_0 cy_analog_virtualmux_6_connect(Net_690, Net_686);
+	cy_connect_v1_0 cy_analog_virtualmux_6_connect(Net_690, Net_35);
 	defparam cy_analog_virtualmux_6_connect.sig_width = 1;
 
     cy_analog_noconnect_v1_0 cy_analog_noconnect_1 (
         .noconnect(Net_34));
 
 	// cy_analog_virtualmux_4 (cy_analog_virtualmux_v1_0)
-	cy_connect_v1_0 cy_analog_virtualmux_4_connect(Net_677, Net_686);
+	cy_connect_v1_0 cy_analog_virtualmux_4_connect(Net_677, Net_34);
 	defparam cy_analog_virtualmux_4_connect.sig_width = 1;
 
     // -- AMux AMux start -- ***
@@ -1127,15 +1127,6 @@ module ADC_DelSig_v3_20_8 (
         .z(Net_252));
 
 
-	cy_vref_v1_0
-		#(.guid("15B3DB15-B7B3-4d62-A2DF-25EA392A7161"),
-		  .name("Vssa (GND)"),
-		  .autoenable(1))
-		vRef_1
-		 (.vout(Net_35));
-
-
-
     assign Net_268 = Net_270 | Net_93;
 
     ZeroTerminal ZeroTerminal_3 (
@@ -1148,12 +1139,12 @@ endmodule
 // top
 module top ;
 
-          wire  Net_2563;
-    electrical  Net_2562;
-          wire  Net_2561;
-          wire  Net_2560;
-          wire  Net_2559;
-    electrical  Net_2558;
+          wire  Net_2655;
+    electrical  Net_2654;
+          wire  Net_2653;
+          wire  Net_2652;
+          wire  Net_2651;
+    electrical  Net_2650;
           wire  Net_2548;
           wire  Net_2547;
           wire  Net_2545;
@@ -1165,7 +1156,7 @@ module top ;
           wire  Net_2539;
           wire  Net_2638;
           wire  Net_2538;
-    electrical  Net_2600;
+    electrical  Net_2666;
           wire  Net_305;
           wire  Net_2537;
           wire  Net_2536;
@@ -1192,28 +1183,28 @@ module top ;
           wire  Net_2613;
           wire  Net_2615;
           wire  Net_32;
+          wire  Net_2609;
           wire  Net_2565;
           wire  Net_204;
+          wire  Net_2606;
+    electrical  Net_2664;
+    electrical  Net_2641;
+          wire  Net_328;
           wire  Net_1407;
           wire  Net_502;
-          wire  Net_2606;
           wire  Net_378;
           wire  Net_1419;
-          wire  Net_328;
-    electrical  Net_2611;
-    electrical  Net_2627;
-          wire  Net_2609;
           wire  Net_30;
 
     WaveDAC8_v2_10_1 WaveDAC8_1 (
-        .Wave(Net_2611),
+        .Wave(Net_2664),
         .ws(Net_2606),
         .clock(Net_328),
         .wc1(Net_204),
         .wc2(Net_2565));
 
     WaveDAC8_v2_10_3 WaveDAC8_2 (
-        .Wave(Net_2611),
+        .Wave(Net_2664),
         .ws(Net_378),
         .clock(Net_502),
         .wc1(Net_2609),
@@ -1431,9 +1422,9 @@ module top ;
 
 
     OpAmp_v1_90_6 Opamp_1 (
-        .Vplus(Net_2611),
-        .Vout(Net_2627),
-        .Vminus(Net_2600));
+        .Vplus(Net_2664),
+        .Vout(Net_2641),
+        .Vminus(Net_2666));
     defparam Opamp_1.Mode = 1;
 
     assign Net_2606 = 1'h0;
@@ -1456,13 +1447,89 @@ module top ;
     defparam PWM_2.Resolution = 8;
 
     ADC_DelSig_v3_20_8 ADC_DelSig_1 (
-        .vplus(Net_2627),
-        .vminus(Net_2558),
+        .vplus(Net_2641),
+        .vminus(Net_2650),
         .soc(1'b1),
-        .eoc(Net_2560),
+        .eoc(Net_2652),
         .aclk(1'b0),
-        .nVref(Net_2562),
+        .nVref(Net_2654),
         .mi(1'b0));
+
+	wire [0:0] tmpOE__Pin_Out_net;
+	wire [0:0] tmpFB_0__Pin_Out_net;
+	wire [0:0] tmpIO_0__Pin_Out_net;
+	wire [0:0] tmpINTERRUPT_0__Pin_Out_net;
+	electrical [0:0] tmpSIOVREF__Pin_Out_net;
+
+	cy_psoc3_pins_v1_10
+		#(.id("77715107-f8d5-47e5-a629-0fb83101ac6b"),
+		  .drive_mode(3'b000),
+		  .ibuf_enabled(1'b0),
+		  .init_dr_st(1'b0),
+		  .input_clk_en(0),
+		  .input_sync(1'b1),
+		  .input_sync_mode(1'b0),
+		  .intr_mode(2'b00),
+		  .invert_in_clock(0),
+		  .invert_in_clock_en(0),
+		  .invert_in_reset(0),
+		  .invert_out_clock(0),
+		  .invert_out_clock_en(0),
+		  .invert_out_reset(0),
+		  .io_voltage(""),
+		  .layout_mode("CONTIGUOUS"),
+		  .oe_conn(1'b0),
+		  .oe_reset(0),
+		  .oe_sync(1'b0),
+		  .output_clk_en(0),
+		  .output_clock_mode(1'b0),
+		  .output_conn(1'b0),
+		  .output_mode(1'b0),
+		  .output_reset(0),
+		  .output_sync(1'b0),
+		  .pa_in_clock(-1),
+		  .pa_in_clock_en(-1),
+		  .pa_in_reset(-1),
+		  .pa_out_clock(-1),
+		  .pa_out_clock_en(-1),
+		  .pa_out_reset(-1),
+		  .pin_aliases(""),
+		  .pin_mode("A"),
+		  .por_state(4),
+		  .sio_group_cnt(0),
+		  .sio_hyst(1'b1),
+		  .sio_ibuf(""),
+		  .sio_info(2'b00),
+		  .sio_obuf(""),
+		  .sio_refsel(""),
+		  .sio_vtrip(""),
+		  .sio_hifreq(""),
+		  .sio_vohsel(""),
+		  .slew_rate(1'b0),
+		  .spanning(0),
+		  .use_annotation(1'b0),
+		  .vtrip(2'b10),
+		  .width(1),
+		  .ovt_hyst_trim(1'b0),
+		  .ovt_needed(1'b0),
+		  .ovt_slew_control(2'b00),
+		  .input_buffer_sel(2'b00))
+		Pin_Out
+		 (.oe(tmpOE__Pin_Out_net),
+		  .y({1'b0}),
+		  .fb({tmpFB_0__Pin_Out_net[0:0]}),
+		  .analog({Net_2641}),
+		  .io({tmpIO_0__Pin_Out_net[0:0]}),
+		  .siovref(tmpSIOVREF__Pin_Out_net),
+		  .interrupt({tmpINTERRUPT_0__Pin_Out_net[0:0]}),
+		  .in_clock({1'b0}),
+		  .in_clock_en({1'b1}),
+		  .in_reset({1'b0}),
+		  .out_clock({1'b0}),
+		  .out_clock_en({1'b1}),
+		  .out_reset({1'b0}));
+
+	assign tmpOE__Pin_Out_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
 
 

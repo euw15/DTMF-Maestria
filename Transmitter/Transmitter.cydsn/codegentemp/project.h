@@ -27,6 +27,8 @@
 #include "Opamp_1.h"
 #include "PWM_2.h"
 #include "ADC_DelSig_1.h"
+#include "Pin_Out_aliases.h"
+#include "Pin_Out.h"
 #include "WaveDAC8_1_Wave1_DMA_dma.h"
 #include "WaveDAC8_1_Wave2_DMA_dma.h"
 #include "WaveDAC8_1_VDAC8.h"

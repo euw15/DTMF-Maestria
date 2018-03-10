@@ -1,5 +1,5 @@
 # Transmitter
-# 2018-02-25 21:23:51Z
+# 2018-03-05 01:13:57Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -10,6 +10,7 @@ dont_use_io iocell 1 3
 set_location "ClockBlock" clockblockcell -1 -1 0
 set_io "Rx_1(0)" iocell 12 6
 set_io "Tx_1(0)" iocell 12 7
+set_io "Pin_Out(0)" iocell 0 1
 set_location "Net_2613" 1 0 0 3
 set_location "\UART_1:BUART:counter_load_not\" 1 1 0 2
 set_location "\UART_1:BUART:tx_status_0\" 1 1 1 2
@@ -22,10 +23,10 @@ set_location "\PWM_1:PWMUDB:status_2\" 1 0 0 1
 set_location "\PWM_2:PWMUDB:status_2\" 0 2 0 2
 set_location "\WaveDAC8_1:Wave1_DMA\" drqcell -1 -1 0
 set_location "\WaveDAC8_1:Wave2_DMA\" drqcell -1 -1 1
-set_location "\WaveDAC8_1:VDAC8:viDAC8\" vidaccell -1 -1 2
+set_location "\WaveDAC8_1:VDAC8:viDAC8\" vidaccell -1 -1 3
 set_location "\WaveDAC8_2:Wave1_DMA\" drqcell -1 -1 2
 set_location "\WaveDAC8_2:Wave2_DMA\" drqcell -1 -1 3
-set_location "\WaveDAC8_2:VDAC8:viDAC8\" vidaccell -1 -1 3
+set_location "\WaveDAC8_2:VDAC8:viDAC8\" vidaccell -1 -1 2
 set_location "__ONE__" 2 4 1 3
 set_location "\UART_1:BUART:sTX:TxShifter:u0\" 1 1 2
 set_location "\UART_1:BUART:sTX:sCLOCK:TxBitClkGen\" 0 1 2
@@ -36,7 +37,7 @@ set_location "\UART_1:BUART:sRX:RxSts\" 1 1 4
 set_location "\PWM_1:PWMUDB:genblk1:ctrlreg\" 0 2 6
 set_location "\PWM_1:PWMUDB:genblk8:stsreg\" 1 0 4
 set_location "\PWM_1:PWMUDB:sP8:pwmdp:u0\" 1 0 2
-set_location "\Opamp_1:ABuf\" abufcell -1 -1 3
+set_location "\Opamp_1:ABuf\" abufcell -1 -1 0
 set_location "\PWM_2:PWMUDB:genblk1:ctrlreg\" 0 1 6
 set_location "\PWM_2:PWMUDB:genblk8:stsreg\" 0 2 4
 set_location "\PWM_2:PWMUDB:sP8:pwmdp:u0\" 0 2 2
@@ -64,7 +65,6 @@ set_location "\PWM_1:PWMUDB:prevCompare1\" 1 2 1 3
 set_location "\PWM_1:PWMUDB:status_0\" 1 2 0 1
 set_location "Net_328" 1 2 0 2
 set_location "\PWM_2:PWMUDB:runmode_enable\" 0 1 0 0
-set_io "Dedicated_Output" iocell 3 7
 set_location "\PWM_2:PWMUDB:prevCompare1\" 1 2 1 1
 set_location "\PWM_2:PWMUDB:status_0\" 1 2 1 0
 set_location "Net_502" 1 2 1 2

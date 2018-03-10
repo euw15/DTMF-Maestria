@@ -1,7 +1,6 @@
-D:\Maestria\Repos\Adqui Proy 1\DTMF-Maestria\Transmitter\Transmitter.cydsn\Transmitter.cyprj|09d08388-94c5-47d9-9796-bf85c8e6d7d5
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|aa033c4c-6856-4e8d-88e0-f72c999723bb
-C:\Users\lopezgui\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|1409c115-8397-42e9-898b-b2338623aadc
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0234becd-db98-44d9-987c-abf0cc647afc
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|3deea45a-d61b-4873-b8d1-520a4a251c60
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6bca747a-ab5d-40f9-9ef7-9ff462bf6b76
-C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|3b1330fc-5ea5-4415-b6d7-37ca710452ce
+D:\GitRepos\DTMF-Maestria\Transmitter\Transmitter.cydsn\Transmitter.cyprj|1054db58-5395-4328-9dd4-6d8d3356bf9a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|e7220c74-960c-4b3e-bfaf-f3105b75ae2e
+C:\Users\loaizaa\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|fae75e42-2a73-4e7d-81fd-8abc909d72c3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9afbc10b-41e4-4385-a191-75313b465b2a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e8cf4810-1c61-4919-826a-117501c6377c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|7f4ed581-6c20-4604-b65d-2202ee37c465
